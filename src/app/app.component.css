@@ -134,3 +134,55 @@
   margin-top: -0.3rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
+
+.contact
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-contact
+{
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.content-contact h2
+{
+  margin-bottom: 1rem;
+}
+
+.content-contact input
+{
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  outline: none;
+  margin: 1rem 0;
+  padding-left: 0.2rem;
+  width: 100%;
+}
+
+.content-contact button
+{
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.4rem 0;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+footer{
+  height: 25vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
